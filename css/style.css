@@ -1,0 +1,40 @@
+a {
+	text-decoration: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table caption {
+	background: rgba(66, 134, 244, .4);
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 1em;
+}
+table th {
+	font-size: 1em;
+	font-weight: 400;
+	padding: 1em;
+}
+table tr {
+	background: rgba(66, 134, 244, .3);
+}
+table tr:first-child {
+	background: rgba(66, 134, 244, .7);
+}
+table td {
+	padding: 1em;
+	text-align: center;
+}
+table tr:last-child td.tanggal_bulan_berikutnya,
+table tr td.tanggal_bulan_sebelumnya {
+	color: rgb(132, 133, 135);
+}
+.libur {
+	color: rgb(255, 50, 50);
+}
+.tanggal_saat_ini {
+	background: rgba(66, 134, 244, .3);	
+	border: 2px solid rgb(66, 134, 244);
+}
