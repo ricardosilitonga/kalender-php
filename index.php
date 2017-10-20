@@ -152,11 +152,16 @@ class Kalender {
 <body>
 	<!-- 
 	Gantikan $bulan dimulai dari angka 1 sampai angka 12 (Januari s/d Desember)
-	Gantikan $tahun dengan contoh format: 2017
+	Gantikan $tahun dengan format: 2017
+	
+	contoh: $kalender = new Kalender(2, 2016);
+			$kalender->show();
 	$kalender = new Kalender(int $bulan, int $tahun)
 	 -->
 	<?php
-		$kalender = new Kalender(4, 2017);
+		$bulan = date('n');
+		$tahun = date('Y');
+		$kalender = new Kalender($bulan, $tahun);
 		$kalender->show();
 	?>
 </body>
